@@ -84,7 +84,7 @@
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:src="@drawable/maitypoultry_logo"
+        android:src="@drawable/myshop"
         android:layout_gravity="center_horizontal"
         android:layout_width="110dp"
         android:layout_height="110dp"

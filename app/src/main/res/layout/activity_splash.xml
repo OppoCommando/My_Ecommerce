@@ -13,13 +13,13 @@
         android:id="@+id/imageView"
         android:layout_width="250dp"
         android:layout_height="210dp"
-        android:src="@drawable/maitypoultry_logo"/>
+        android:src="@drawable/myshop"/>
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/txt_maityegg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
-        android:text="Maity Eggs"
+        android:text="My Shop"
         android:textAlignment="center"
         android:textColor="@color/smoke_green"
         android:fontFamily="@font/bungee"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center_horizontal"
-        android:text="Maity Poultry Online Delivery Application"
+        android:text="My Shop Online Delivery Application"
         android:textAlignment="center"
         android:textColor="@color/green"
         android:textSize="15dp" />
