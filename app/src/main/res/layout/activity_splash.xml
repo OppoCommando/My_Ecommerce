@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".activities.SplashActivity">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="210dp"
+        android:src="@drawable/maitypoultry_logo"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_maityegg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Maity Eggs"
+        android:textAlignment="center"
+        android:textColor="@color/smoke_green"
+        android:fontFamily="@font/bungee"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_maityonline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Maity Poultry Online Delivery Application"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="15dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
